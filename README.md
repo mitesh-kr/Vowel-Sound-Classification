@@ -41,8 +41,8 @@ This project uses the "Vowel database: adults" dataset, which includes recording
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/vowel-classification.git
-cd vowel-classification
+git clone https://github.com/mitesh-kr/Vowel-Sound-Classification.git
+cd Vowel-Sound-Classification
 ```
 
 ### Install Dependencies
@@ -86,6 +86,12 @@ python src/main.py --dataset_path="/path/to/your/dataset"
 ## Results
 
 The system achieves good classification accuracy by leveraging the discriminative power of formant frequencies. The F1-F2 vowel space clearly shows the separation between different vowels, which aligns with theoretical expectations.
+
+For training, the KNN algorithm has been used to improve the accuracy of PCA, which
+has been done for the extracted feature values of F1, F2, F3 and F0.
+The optimal accuracy of 58.33 % was achieved for PCA components equal to 3 and
+n_neighbors=11 for the KNN algorithm.
+
 
 ## Analysis and Reflection
 
