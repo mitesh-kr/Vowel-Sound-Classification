@@ -38,7 +38,7 @@ vowel_classification/
 ## Dataset
 
 This project uses the "Vowel database: adults" dataset, which includes recordings from adult males and adult females. The dataset is divided into training and testing sets with an 80:20 ratio and a random state of 45.
-
+[Download Link](https://drive.google.com/drive/folders/1q1_bgzXWSS-cTy646rAa0TfvL_w0K70_)
 ## Installation
 
 ### Clone the Repository
