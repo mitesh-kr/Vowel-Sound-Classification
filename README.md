@@ -2,6 +2,9 @@
 
 This repository contains a Python-based system for classifying five different vowel sounds (/a/, /e/, /i/, /o/, /u/) using traditional speech processing techniques.
 
+
+## [Google colab link](https://colab.research.google.com/drive/1yxLwj0Z4YthIge3AQh6exPbVY5gra1b3?usp=sharing)
+
 ## Overview
 
 The system uses formant frequencies (F1, F2, F3) and fundamental frequency (F0) extracted from speech samples to classify vowels. It employs Linear Predictive Coding (LPC) for formant extraction and an improved autocorrelation method for fundamental frequency estimation.
